@@ -2,16 +2,54 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+
   }
 }
+j
+#Home{
+  color: rgb(0, 0, 0);
+  border:2px solid rgb(0, 0, 0);
+  padding: 2px;
+  border-radius: 10px;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.523);
+
+}
+#Contact{
+  color: #0d6d93;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.523);
+
+}
+#Code{
+  text-shadow: 4px 4px 5px rgb(19, 20, 12);
+
+}
+.disply-1{
+  color: #0d6d93;
+  font-family: cursive;
+  text-shadow:  4px 4px 5px rgb(202, 48, 18);
+
+}
+.prrr{
+   font-family: cursive;
+}
+#images{
+  border: 1 px;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+/* #Logo{
+  background-color: #000000;
+  color: aliceblue;
+  border-radius: 5px;
+  text-align: center;
+
+} */
 
 .App-header {
   background-color: #282c34;
@@ -23,9 +61,76 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+#Add{
+  color: rgb(0, 0, 0);
+  
+}
 
+
+#pr{
+  font-family: cursive;
+}
+.Info{
+  color: #0d6d93;
+  font-family: sans-serif;
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 58px;
+  margin: 0 0 58px;
+  font-family: cursive;
+}
+.container{
+  color: rgb(0, 0, 0);
+  font-family: 'lucida Sans',Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-indent: 30px;
+  margin: 0;
+}
+#bodyL{
+ color: aliceblue;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  border: #000000;
+  
+ 
+  
+}
+#Ajouter{
+  text-shadow: 4px 4px 5px rgb(18, 169, 224);
+}
+#Edit{
+  
+   text-shadow: 4px 4px 5px rgb(18, 169, 224);
+   
+}
+#Login{
+  width: 360px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #000000;
+  box-shadow:12px 7px 5px rgba(0, 0, 0, 0.445) ;
+
+ 
+}
+#Login h2{
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  margin-bottom: 25px;
+  
+}
+#Login input{
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+#Login input .form-group{
+  margin-bottom: 12px;
+}
 .App-link {
-  color: #61dafb;
+  color: #1e4c59;
 }
 
 @keyframes App-logo-spin {
