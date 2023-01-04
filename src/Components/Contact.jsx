@@ -35,8 +35,7 @@ const Contact = () => {
       <br />
       <br />
       <br />
-      {users
-        .filter((value) => {
+      {users.filter((value) => {
           if (searshe === "") {
             return value;
           } else if (value.Prenom.toString().includes(searshe.toString())) {
