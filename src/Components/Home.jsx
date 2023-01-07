@@ -25,7 +25,7 @@ const Home=()=>{
            id="Home"
            style={{ fontFamily: "cursive" }}
          >
-           <i className="fa-solid fa-house-user"></i> L' information d' Stagaire
+           <i className="fa-solid fa-house-user"></i> Les informations des Stagiaires
            <i className="fa-sharp fa-solid fa-database"></i>
          </h1>
          <br />
